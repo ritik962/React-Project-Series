@@ -1,0 +1,342 @@
+/* My Code */
+
+/*.container {
+  min-height: 100dvh;
+  min-width: 100dvw;
+  background-color: aliceblue;
+  display: grid;
+  place-items: center;
+}
+
+.card-wrapper {
+  position: relative;
+  background-color: #212121;
+  color: white;
+  padding: 5rem 2rem;
+  width: 90%;
+  max-width: 600px;
+  display: grid;
+  border-radius: 1rem;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.15);
+  
+
+  .content {
+    width: 65%;
+    justify-self: flex-end;
+  }
+}*/
+/* --------------Profile Image Wrapper------------ */
+/*.profile-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  height: 80%;
+  width: 40%;
+  border-radius: 1rem;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 999;
+  }
+}*/
+
+/* ----------------Card Content------------- */
+/*.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  .title {
+    font-size: 1.5rem;
+    font-weight: 450;
+    color: hsl(0, 0%, 90%);
+  }
+
+  .designation {
+    font-size: 1.225rem;
+    color: hsl(0, 0%, 80%);
+  }
+
+  .about {
+    font-size: 1rem;
+    color: hsl(0, 0%, 70%);
+  }*/
+/*-----------Social Links-------------*/
+/*.social-links {
+    margin-top: 1rem;
+
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+
+      li {
+        list-style: none;
+        height: 2.5rem;
+        width: 2.5rem;
+        border-radius: 2.5rem;
+        background-color: hsl(0, 0%, 90%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        a {
+          text-decoration: none;
+          font-size: 1.5rem;
+          position: relative;
+
+          .icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: hsl(0, 0%, 0%);
+          }
+        }
+      }
+    }
+  }
+}*/
+
+/* .profile-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  width: 125%;
+  background: radial-gradient(#fed472, #fd802e);
+  border-radius: 50%;
+  z-index: -1;
+} */
+
+/*@media (max-width: 768px) {
+  .card-wrapper {
+    max-width: 400px;
+    padding: 2rem 2rem 2rem 2rem;
+
+    .content {
+      margin-top: 40%;
+      width: 100%;
+      align-items: center;
+      text-align: center;
+      gap: 0.35rem;
+
+      .title {
+        font-size: 1.225rem;
+      }
+
+      .designation {
+        font-size: 1.115rem;
+      }
+
+      .about {
+        font-size: 14px;
+      }
+
+      .social-links {
+        margin-top: 0.75rem;
+
+        li {
+          height: 2rem;
+          width: 2rem;
+        }
+      }
+    }
+  }
+  .profile-wrapper {
+    top: 10%;
+    left: 50%;
+    width: 80%;
+    height: 50%;
+  }
+}*/
+
+/* ----------------Responsive Styles--------------- */
+
+/*@media (max-width: 640px) {
+  .card-wrapper {
+    padding: 2rem 1rem 2rem 1rem;
+  }
+  .profile-wrapper {
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    background-color: black;
+
+    img {
+      display: block;
+    }
+  }
+}*/
+
+/* Optimized with Chatgpt*/
+
+.container {
+  min-height: 100dvh;
+  min-width: 100dvw;
+  background-color: aliceblue;
+  display: grid;
+  place-items: center;
+}
+
+.card-wrapper {
+  position: relative;
+  background-color: #212121;
+  color: white;
+  padding: 5rem 2rem;
+  width: 90%;
+  max-width: 600px;
+  display: grid;
+  border-radius: 1rem;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* --------------Profile Image Wrapper------------ */
+.profile-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  height: 80%;
+  width: 40%;
+  border-radius: 1rem;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+/* ----------------Card Content------------- */
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 65%;
+  margin-left: auto;
+  text-align: left;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 450;
+  color: hsl(0, 0%, 90%);
+}
+
+.designation {
+  font-size: 1.225rem;
+  color: hsl(0, 0%, 80%);
+}
+
+.about {
+  font-size: 1rem;
+  color: hsl(0, 0%, 70%);
+}
+
+/*-----------Social Links-------------*/
+.social-links {
+  margin-top: 1rem;
+
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    li {
+      list-style: none;
+      height: 2.5rem;
+      width: 2.5rem;
+      border-radius: 50%;
+      background-color: hsl(0, 0%, 90%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .icon {
+          color: hsl(0, 0%, 0%);
+        }
+      }
+    }
+  }
+}
+
+/* ----------------Responsive Styles--------------- */
+@media (max-width: 768px) {
+  .card-wrapper {
+    max-width: 400px;
+    padding: 2rem;
+
+    .content {
+      margin-top: 40%;
+      width: 100%;
+      align-items: center;
+      text-align: center;
+      gap: 0.35rem;
+    }
+
+    .title {
+      font-size: 1.225rem;
+    }
+
+    .designation {
+      font-size: 1.115rem;
+    }
+
+    .about {
+      font-size: 0.875rem;
+    }
+
+    .social-links li {
+      height: 2rem;
+      width: 2rem;
+    }
+  }
+
+  .profile-wrapper {
+    top: 10%;
+    left: 50%;
+    width: 80%;
+    height: 50%;
+  }
+}
+
+@media (max-width: 640px) {
+  .card-wrapper {
+    padding: 2rem 1rem;
+  }
+
+  .profile-wrapper {
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+
+    img {
+      display: block;
+    }
+  }
+}

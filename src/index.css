@@ -6,10 +6,3 @@
   box-sizing: border-box;
   font-family: "Poppins", serif;
 }
-
-body {
-  min-height: 100dvh;
-  background-color: aliceblue;
-  display: grid;
-  place-items: center;
-}
