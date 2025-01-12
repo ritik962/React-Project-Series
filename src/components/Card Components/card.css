@@ -182,13 +182,13 @@
 
 /* Optimized with Chatgpt*/
 
-.container {
+/* .container {
   min-height: 100dvh;
   min-width: 100dvw;
   background-color: aliceblue;
   display: grid;
   place-items: center;
-}
+} */
 
 .card-wrapper {
   position: relative;

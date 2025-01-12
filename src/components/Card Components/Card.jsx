@@ -1,7 +1,7 @@
 import { FaLinkedinIn } from "react-icons/fa6";
 import { TbBrandGithubFilled } from "react-icons/tb";
 import { TfiPinterest } from "react-icons/tfi";
-import profile_image from "../Assets/profile.jpg";
+import profile_image from "../Assets/Card_Project_Images/profile.jpg";
 import "./card.css";
 
 const Card = () => {

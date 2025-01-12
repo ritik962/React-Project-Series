@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --text-clr: #d8d8d8;
+}
+
+.container {
+  min-height: 100dvh;
+  background-color: #1b1b1b;
+  font-family: "Roboto Condensed", serif;
+}
+
+.app-wrapper {
+  /* background-color: red; */
+  padding: 3rem 1.5rem 1.5rem 1.5rem;
+  text-align: center;
+  color: var(--text-clr);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.app-wrapper .heading {
+  margin-top: 4rem;
+  font-size: 1.85rem;
+  font-weight: 450;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.input-wrapper {
+  width: clamp(27vw, 30vw, 35vw);
+  position: relative;
+  height: 3.75rem;
+}
+
+.input-wrapper input {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: 1px solid var(--text-clr);
+  background: transparent;
+  text-align: center;
+  font-size: 2rem;
+  color: var(--text-clr);
+}
+
+.input-title {
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+}
+.input-icon {
+  position: absolute;
+  bottom: -35%;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 1rem;
+  font-weight: 550;
+}
+
+.input-wrapper label {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translate(-50%, -50%);
+  font-size: 1.35rem;
+}
+
+.toggler {
+  font-size: 2rem;
+  color: #535252;
+  rotate: 45deg;
+  outline: none;
+  border: none;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: none;
+}
+
+.change-unit .message {
+  font-size: 1.225rem;
+}
+
+.message .edit-unit {
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+@media (max-width: 895px) {
+  .input-wrapper {
+    width: clamp(70vw, 80vw, 90vw);
+  }
+  .toggler {
+    display: none;
+  }
+  .input-container {
+    flex-direction: column;
+    gap: 4rem;
+  }
+}
